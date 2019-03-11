@@ -1,4 +1,4 @@
-.jumbotron.JumboTron-fluid{
-    background-image: url("../Assets/trainHeader.gif");
-    justify-content: center;
+body {
+    background-image: url("./Assets/background.jpg");
+    background-color: black;
 }
