@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="Assets/train.js"></script>
+    <script src="Assets/style.css"></script>
+  
+    <title>trainhw</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+
+</head>
+
+<body>
+<div class="jumbotron jumbotron-fluid">
+    <div class="TitleHeader">
+    <h1 style="display: inline" class="fa fa-newspaper-o">Any Time Is train Time</h1>
+    <p class="lead">choo choo. chee chee.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-12">
+    <div class="card">
+    <div class="card-header">Current Train Schedule
+</div>
+    
+    <div class="card-body" id="TrainSchedule">
+
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-12">
+    <div class="card">
+    <div class="card-header">Add Train 
+</div>
+
+<div class="card-body">
+<form>
+    <div class="form-group">
+    <label for="searchTerm">Train Name</label>
+    <input type="search" class="form-control" id="searchTerm" placeholder="">
+</div>
+    
+<div class="form-group">
+
+ <label for="numberOfRecords">Number of Passengers</label>
+
+<select class="form-control" id="numberOfRecords">
+    <option>1</option>
+    <option>5</option>
+    <option>10</option>
+</select>
+
+</div>
+
+<div class="form-group">
+   <label for="Destination">Destination</label>
+    <input type="number" class="form-control" id="Destination" placeholder="">
+</div>
+
+<div class="form-group">
+    <label for="FirstTrainTime">First Train Time </label>
+    <input type="number" class="form-control" id="FirstTrainTime" placeholder="">
+</div>
+
+<div class= "form-group">
+    <label for= "Frequency">Frequency(min)</label>
+    <input type ="number" class= "form-control" id= "Frequency" placeholder="">
+</div>
+
+<button type="button" class="btn btn-primary" id='submitButton'>Search</button>
+
+<button type="button" class="btn btn-danger" id="clearButton">Clear Results</button>
+
+</form>
+
+
+    </div>
+    </div>
+    </div>
+</div>
+    </div>
+    </div>
+</body>
+
+<!--link to custom JS  -->
+
+</html>
