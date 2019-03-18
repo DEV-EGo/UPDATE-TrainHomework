@@ -1,0 +1,73 @@
+body {
+    background-image: url(../Assets/new.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #212529;
+
+}
+.jumbotron.jumbotron-fluid {
+    text-align: center;
+    color: rgb(34, 252, 34);
+    background-color: #2f2f30dc;
+
+}
+/* form */
+.form-group{
+    background-color: #2f2f30dc;
+    text-align: center;
+    color: rgb(34, 252, 34);
+    font-size: 23px;
+}
+
+.col-12{
+    /* background: #4282c2a9; */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    /* padding: 50px 0 50px 0; */
+}
+
+.row {
+    /* background-color: #4282c2a9 */
+    /* background: white; */
+}
+
+#border {
+    border-width:5px;  
+    border-style:outset;
+    border-color: rgb(9, 145, 190);
+    padding: 0;
+}
+
+#add-info {
+    padding-left: 10px;
+}
+
+
+#submit {
+    /* color: rgb(252, 34, 34);
+    background-color: #008CBA;
+    margin-left: 420px; */
+  background-color: #2f2f30dc;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  justify-content: center;
+    
+}
+
