@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Assets/new.jpg);
+    background-image: url(../CSS/new.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -27,17 +27,12 @@ body {
 }
 
 .col-12{
-    /* background: #4282c2a9; */
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 23px;
-    /* padding: 50px 0 50px 0; */
+
 }
 
-.row {
-    /* background-color: #4282c2a9 */
-    /* background: white; */
-}
 
 #border {
     border-width:5px;  
@@ -52,9 +47,7 @@ body {
 
 
 #submit {
-    /* color: rgb(252, 34, 34);
-    background-color: #008CBA;
-    margin-left: 420px; */
+
   background-color: #2f2f30dc;
   border: none;
   color: white;
