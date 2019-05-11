@@ -1,7 +1,6 @@
 ////having issues connecting into firebase, 
 //i keep getting this error idk how to trouble shoot the connectino
 //Uncaught TypeError: firebaseConfig.database is not a function
-//at train.js:14
 
 var firebaseConfig = {
     apiKey: "AIzaSyDGLsHl61wZtn0ONV2qWuvzeaZpSJtv2Zo",
