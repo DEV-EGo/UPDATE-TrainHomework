@@ -1,9 +1,5 @@
-////having issues connecting into firebase, 
-//i keep getting this error idk how to trouble shoot the connectino
-//Uncaught TypeError: firebaseConfig.database is not a function
-
-var firebaseConfig = {
-    apiKey: "AIzaSyDGLsHl61wZtn0ONV2qWuvzeaZpSJtv2Zo",
+var config = {
+    apiKey: Key,
     authDomain: "traintake3.firebaseapp.com",
     databaseURL: "https://traintake3.firebaseio.com",
     projectId: "traintake3",
@@ -12,8 +8,9 @@ var firebaseConfig = {
     appId: "1:960778923195:web:9fa81d6a8d374ed8"
 };
 
-firebase.initializeApp(firebaseConfig);
+var Key = config.key;
 
+firebase.initializeApp(config);
 
 var database = firebase.database();
 
